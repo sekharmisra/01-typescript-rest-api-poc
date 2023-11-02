@@ -26,7 +26,7 @@ server.listen(8080, () => {
 });
 
 
-const MONGO_URL = 'mongodb+srv://sekharmisra:PCn3VqNjq5ww3idT@cluster0.0el14ji.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URL = '';
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
